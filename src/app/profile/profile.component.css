@@ -1,0 +1,49 @@
+.example-card {
+    margin: 20px;
+}
+.row {
+    display: block;
+    float: none;
+    clear: both;
+}
+.col {
+    float: left;
+    padding: 10px;
+}
+.col-3 {
+    width: 33%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-8 {
+    width: 60%;
+}
+.col-9 {
+    width: 66%;
+}
+.col-12 {
+    width: 100%;
+    display: block;
+}
+.clearfix {
+    display: block;
+    clear: both;
+}
+.table-responsive {
+    overflow: auto;
+}
+.table {
+    width: 100%;
+}
+.table-bordered {
+    border: 1px solid #2c2c2c;
+    padding: 0
+}
+.bold {
+    font-weight: bold;
+}
+.table-bordered thead th {
+    background: #2c2c2c;
+    color: white
+}

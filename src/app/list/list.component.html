@@ -1,0 +1,17 @@
+<mdb-card *ngFor="let u of users.data; let idx = index">
+  <!--Card image-->
+  <mdb-card-img src="{{ u.picture }}" alt="{{ u.firstName }} {{ u.lastName }}"></mdb-card-img>
+  <!--Card content-->
+  <mdb-card-body>
+
+    <!--Title-->
+    <mdb-card-title>
+      <h4>{{ u.firstName }} {{ u.lastName }}</h4>
+    </mdb-card-title>
+
+    <!--Text-->
+    <mdb-card-text>{{ u.email }}</mdb-card-text>
+
+    <a [routerLink]="['/profile', u.id]" mdbBtn color="primary" mdbWavesEffect>Profile</a>
+  </mdb-card-body>
+</mdb-card>
